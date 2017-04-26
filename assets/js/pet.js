@@ -19,8 +19,7 @@ function comenzar() {
 }
 /*******funciones****/
 
-
-function dragImage(parametro) {
+function dragImage(e) {
   var codigo = "<img src='"+parametro.getAttribute("src")+"'>";
   e.dataTransfer.setData("Text",codigo)
 }
